@@ -1,4 +1,4 @@
-export function formatRuntime(min: number): string {
+/*export function formatRuntime(min: number): string {
   const h = Math.floor(min / 60); const m = min % 60;
   return h > 0 ? `${h}h ${m}m` : `${m}m`;
 }
@@ -11,4 +11,4 @@ export function calcAge(birthday: string): number {
 export function ratingColor(r: number): string {
   if (r >= 8) return "text-accent-green"; if (r >= 6.5) return "text-brand-400";
   if (r >= 5) return "text-yellow-500"; return "text-red-500";
-}
+} */

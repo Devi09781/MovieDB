@@ -1,4 +1,4 @@
-import { supabase } from "./supabase";
+/*import { supabase } from "./supabase";
 import type { Movie, Actor, Review, WatchlistItem, Genre } from "@/types";
 
 export async function getMovies(): Promise<Movie[]> {
@@ -130,3 +130,4 @@ export async function getTrendingSearches(): Promise<string[]> {
   const movies = await getTrending();
   return movies.map((m) => m.title).slice(0, 8);
 }
+*/
