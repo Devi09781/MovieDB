@@ -1,4 +1,4 @@
-import { useActors } from "@/hooks/use-data";
+import { useActors} from "@/hooks/use-data";
 import ActorCard from "@/components/actor-card";
 
 export default function ActorsPage() {

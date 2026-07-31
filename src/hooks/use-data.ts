@@ -1,4 +1,4 @@
-/*import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import * as repo from "@/lib/repository";
 
 export function useMovies() {
@@ -91,4 +91,3 @@ export function useGenres() {
 export function useTrendingSearches() {
   return useQuery({ queryKey: ["trendingSearches"], queryFn: repo.getTrendingSearches });
 }
-*/

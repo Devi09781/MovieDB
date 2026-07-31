@@ -1,8 +1,9 @@
-/*export function formatRuntime(minutes: number | null | undefined): string {
+export function formatRuntime(minutes: number | null | undefined): string {
   if (!minutes || minutes <= 0) return "N/A";
   const h = Math.floor(minutes / 60);
   const m = minutes % 60;
   return h > 0 ? `${h}h ${m}m` : `${m}m`;
+}
 
 
 export function formatCurrency(amount: number | null | undefined): string {
@@ -30,4 +31,3 @@ export function ratingColor(rating: number): string {
 export function initials(name: string): string {
   return name.split(" ").map((n) => n[0]).join("").slice(0, 2).toUpperCase();
 }
-*/

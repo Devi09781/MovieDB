@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { Calendar, MapPin, Globe, Award, ExternalLink, Film, Share2 } from "lucide-react";
-import { useActor } from "@/hooks/use-data";
+import {useActors} from "@/hooks/use-data";
 import { formatDate, initials } from "@/lib/utils";
 import SmartImage from "@/components/smart-image";
 
