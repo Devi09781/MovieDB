@@ -1,4 +1,4 @@
-import type { Movie, Actor, Genre, Collection, Director, Review, WatchlistItem } from "@/types";
+/*import type { Movie, Actor, Genre, Collection, Director, Review, WatchlistItem } from "@/types";
 import { movies as mockMovies, actors as mockActors, genres as mockGenres, collections as mockCollections, directors as mockDirectors, trendingSearches } from "@/lib/mock-data";
 
 const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
