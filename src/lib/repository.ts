@@ -130,3 +130,41 @@ export async function getTrendingSearches(): Promise<string[]> {
   const movies = await getTrending();
   return movies.map((m) => m.title).slice(0, 8);
 }
+
+
+
+
+
+
+
+
+
+
+export async function updateReview(
+  id: string,
+  updates: {
+    rating: number;
+    title: string;
+    content: string;
+  }
+) {
+  const reviews = await getAllReviews();
+
+  const review = reviews.find(
+    (item) => item.id === id
+  );
+
+  if (!review) {
+    throw new Error("Review not found");
+  }
+
+  const updatedReview = {
+    ...review,
+    ...updates,
+    edited: true,
+  };
+
+  return updatedReview;
+}
+
+
