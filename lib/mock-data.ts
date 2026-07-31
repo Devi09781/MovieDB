@@ -1,4 +1,4 @@
-import type { Movie, Actor, Genre, Collection, Director } from "@/types";
+/*import type { Movie, Actor, Genre, Collection, Director } from "@/types";
 
 const img = (id: number) => `https://picsum.photos/seed/movie-${id}/600/900`;
 const bd = (id: number) => `https://picsum.photos/seed/backdrop-${id}/1280/720`;
