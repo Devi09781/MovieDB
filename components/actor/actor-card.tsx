@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -18,3 +18,4 @@ export function ActorCard({ actor, index = 0 }: { actor: Actor; index?: number }
     </motion.div>
   );
 }
+*/
